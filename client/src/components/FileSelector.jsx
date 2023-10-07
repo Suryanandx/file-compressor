@@ -14,6 +14,8 @@ const FileSelector = ({ onChange }) => {
     <Tabs value={value} onChange={handleChange} centered>
       <Tab label="Image" />
       <Tab label="PDF" />
+      <Tab label="Media"/>
+      <Tab label="Zip"/>
     </Tabs>
   );
 };

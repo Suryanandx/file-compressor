@@ -75,7 +75,7 @@ const PDFOptimizer = () => {
         )}
         {compressedFileUrl && (
           <Button
-          
+            variant='outlined' 
             color="inherit"
             href={compressedFileUrl}
             download="compressed.pdf"
