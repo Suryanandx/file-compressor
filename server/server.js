@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/compress-video", (req, res) => {
-  const video = req.body.video;
+  const video = req.files.video;
 
   // When file is uploaded it is stored in temp file
   // this is made possible by express-fileupload
